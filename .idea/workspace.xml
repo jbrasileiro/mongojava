@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d863a931-452a-4d8d-a883-4a56831ba26d" name="Default Changelist" comment="" />
+    <list default="true" id="d863a931-452a-4d8d-a883-4a56831ba26d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +18,7 @@
     <session id="-2138308637">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -26,14 +31,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="26" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="154" />
+          <entry key="JAVA" value="219" />
           <entry key="Properties" value="41" />
         </counts>
       </usages-collector>
@@ -44,62 +49,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="148" column="36" selection-start-line="148" selection-start-column="36" selection-end-line="148" selection-end-column="36" />
+            <state relative-caret-position="458">
+              <caret line="204" column="27" lean-forward="true" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorCodec.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/api/daos/TextAndSubfieldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+            <state relative-caret-position="99">
+              <caret line="80" column="28" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+            <state relative-caret-position="-1220">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/api/daos/ProjectionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/models/AbstractMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/QueryBuilders.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/models/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/models/Credentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -107,26 +103,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/AbstractMFlixDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="-155">
               <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/controllers/ApiController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/CommentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="-1130">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDocumentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="56" column="41" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="-1625">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/controllers/MovieController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-704">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -138,12 +143,16 @@
       <find>YOUR_CLUSTER_URI</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" />
       </list>
     </option>
   </component>
@@ -267,6 +276,55 @@
               <item name="mflix" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mflix" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -275,7 +333,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550151975710" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550291169211" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -291,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UsingPojoLesson">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mflix.Application" />
       <module name="mflix" />
@@ -305,7 +363,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextAndSubfieldTest.testGenreSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mflix" />
       <extension name="coverage">
         <pattern>
@@ -314,12 +372,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mflix.api.daos" />
-      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.ConnectionTest" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.TextAndSubfieldTest" />
+      <option name="METHOD_NAME" value="testGenreSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextAndSubfieldTest.testMultipleGenreSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mflix" />
       <extension name="coverage">
         <pattern>
@@ -328,37 +388,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mflix.api.daos" />
-      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.ProjectionTest" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.TextAndSubfieldTest" />
+      <option name="METHOD_NAME" value="testMultipleGenreSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingPojoLesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextAndSubfieldTest.testSearchByCast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mflix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="PATTERN" value="mflix.api.daos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.UsingPojoLesson" />
+      <option name="PACKAGE_NAME" value="mflix.api.daos" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.TextAndSubfieldTest" />
+      <option name="METHOD_NAME" value="testSearchByCast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextAndSubfieldTest.testSearchMultipleCast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mflix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mflix.api.daos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mflix.api.daos" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.TextAndSubfieldTest" />
+      <option name="METHOD_NAME" value="testSearchMultipleCast" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.TextAndSubfieldTest.testSearchByCast" />
+      <item itemvalue="JUnit.TextAndSubfieldTest.testSearchMultipleCast" />
+      <item itemvalue="JUnit.TextAndSubfieldTest.testMultipleGenreSearch" />
+      <item itemvalue="JUnit.TextAndSubfieldTest.testGenreSearch" />
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.ConnectionTest" />
-      <item itemvalue="JUnit.ProjectionTest" />
-      <item itemvalue="JUnit.UsingPojoLesson" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UsingPojoLesson" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.ProjectionTest" />
-        <item itemvalue="JUnit.ConnectionTest" />
+        <item itemvalue="JUnit.TextAndSubfieldTest.testGenreSearch" />
+        <item itemvalue="JUnit.TextAndSubfieldTest.testMultipleGenreSearch" />
+        <item itemvalue="JUnit.TextAndSubfieldTest.testSearchMultipleCast" />
+        <item itemvalue="JUnit.TextAndSubfieldTest.testSearchByCast" />
       </list>
     </recent_temporary>
   </component>
@@ -376,30 +458,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConnectionTest - 2019.02.13 at 16h 22m 21s.xml">
-      <configuration name="ConnectionTest" configurationId="JUnit" />
+    <history-entry file="UsingPojoLesson_testReadObjectWithCustomFieldCodec - 2019.02.16 at 10h 26m 38s.xml">
+      <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjectionTest - 2019.02.14 at 15h 56m 41s.xml">
+    <history-entry file="TextAndSubfieldTest - 2019.02.16 at 11h 05m 09s.xml">
+      <configuration name="TextAndSubfieldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectionTest - 2019.02.16 at 11h 05m 29s.xml">
       <configuration name="ProjectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjectionTest - 2019.02.14 at 15h 58m 23s.xml">
-      <configuration name="ProjectionTest" configurationId="JUnit" />
+    <history-entry file="TextAndSubfieldTest - 2019.02.16 at 11h 07m 14s.xml">
+      <configuration name="TextAndSubfieldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjectionTest - 2019.02.14 at 16h 00m 33s.xml">
-      <configuration name="ProjectionTest" configurationId="JUnit" />
+    <history-entry file="TextAndSubfieldTest - 2019.02.16 at 11h 11m 47s.xml">
+      <configuration name="TextAndSubfieldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjectionTest - 2019.02.14 at 16h 13m 26s.xml">
-      <configuration name="ProjectionTest" configurationId="JUnit" />
+    <history-entry file="TextAndSubfieldTest_testTextSearch - 2019.02.16 at 11h 12m 02s.xml">
+      <configuration name="TextAndSubfieldTest.testTextSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsingPojoLesson - 2019.02.14 at 20h 43m 28s.xml">
-      <configuration name="UsingPojoLesson" configurationId="JUnit" />
+    <history-entry file="TextAndSubfieldTest_testSearchByCast - 2019.02.16 at 11h 12m 16s.xml">
+      <configuration name="TextAndSubfieldTest.testSearchByCast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsingPojoLesson - 2019.02.14 at 20h 44m 53s.xml">
-      <configuration name="UsingPojoLesson" configurationId="JUnit" />
+    <history-entry file="TextAndSubfieldTest_testSearchMultipleCast - 2019.02.16 at 11h 12m 26s.xml">
+      <configuration name="TextAndSubfieldTest.testSearchMultipleCast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextAndSubfieldTest_testMultipleGenreSearch - 2019.02.16 at 11h 12m 48s.xml">
+      <configuration name="TextAndSubfieldTest.testMultipleGenreSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextAndSubfieldTest_testGenreSearch - 2019.02.16 at 11h 13m 03s.xml">
+      <configuration name="TextAndSubfieldTest.testGenreSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -422,7 +514,7 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -488,20 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDocumentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mflix/api/daos/ProjectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -523,10 +601,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/AbstractMFlixDao.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="660">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="412" column="52" selection-start-line="412" selection-start-column="52" selection-end-line="412" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -537,31 +648,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/controllers/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="56" column="41" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="-35">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/controllers/MovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="148" column="36" selection-start-line="148" selection-start-column="36" selection-end-line="148" selection-end-column="36" />
+        <state relative-caret-position="-704">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/AbstractMFlixDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        <state relative-caret-position="-155">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorCodec.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/CommentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        <state relative-caret-position="-1130">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDocumentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1625">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1220">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/models/AbstractMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/models/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/models/Credentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="204" column="27" lean-forward="true" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/api/daos/TextAndSubfieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="28" />
         </state>
       </provider>
     </entry>

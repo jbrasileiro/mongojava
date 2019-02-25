@@ -57,17 +57,31 @@ public class MovieDao extends AbstractMFlixDao {
      */
     @SuppressWarnings("UnnecessaryLocalVariable")
     public Document getMovie(String movieId) {
+        System.out.println(movieId);
         if (!validIdValue(movieId)) {
             return null;
         }
 
         List<Bson> pipeline = new ArrayList<>();
         // match stage to find movie
-        Bson match = Aggregates.match(Filters.eq("_id", new ObjectId(movieId)));
+        Bson match = Aggregates.match(Filters.eq("_id", movieId));
         pipeline.add(match);
+
+        Bson lookup = new Document("$lookup",
+                new Document("from", "comments")
+                        .append("let",
+                                new Document("id", "$_id"))
+                        .append("pipeline", Arrays.asList(new Document("$match",
+                                new Document("$expr",
+                                        new Document("$eq", Arrays.asList("$movie_id", "$$id"))))))
+                        .append("as", "comments"));
+
+        pipeline.add(lookup);
+
         // TODO> Ticket: Get Comments - implement the lookup stage that allows the comments to
         // retrieved with Movies.
         Document movie = moviesCollection.aggregate(pipeline).first();
+        if (movie != null) System.out.println(movie.toString());
 
         return movie;
     }
@@ -203,6 +217,8 @@ public class MovieDao extends AbstractMFlixDao {
         moviesCollection
                 .find(castFilter)
                 .sort(sort)
+                .skip(skip)
+                .limit(limit)
                 .iterator()
                 .forEachRemaining(movies::add);
 
@@ -286,6 +302,10 @@ public class MovieDao extends AbstractMFlixDao {
         // Your job is to order the stages correctly in the pipeline.
         // Starting with the `matchStage` add the remaining stages.
         pipeline.add(matchStage);
+        pipeline.add(sortStage);
+        pipeline.add(skipStage);
+        pipeline.add(limitStage);
+        pipeline.add(facetStage);
 
         moviesCollection.aggregate(pipeline).iterator().forEachRemaining(movies::add);
         return movies;

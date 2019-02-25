@@ -5,10 +5,7 @@ import com.mongodb.MongoWriteException;
 import com.mongodb.ReadConcern;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
-import com.mongodb.client.model.Aggregates;
-import com.mongodb.client.model.Filters;
-import com.mongodb.client.model.Sorts;
-import com.mongodb.client.model.Updates;
+import com.mongodb.client.model.*;
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
 import mflix.api.models.Comment;
@@ -82,9 +79,10 @@ public class CommentDao extends AbstractMFlixDao {
 
     // TODO> Ticket - Update User reviews: implement the functionality that enables adding a new
     // comment.
+    commentCollection.insertOne(comment);
     // TODO> Ticket - Handling Errors: Implement a try catch block to
     // handle a potential write exception when given a wrong commentId.
-    return null;
+    return comment;
   }
 
   /**
@@ -104,9 +102,44 @@ public class CommentDao extends AbstractMFlixDao {
 
     // TODO> Ticket - Update User reviews: implement the functionality that enables updating an
     // user own comments
+
+    // Let's go ahead and instantiate our document
+//    Document doc1 = new Document("title", "Final Fantasy");
+//    doc1.put("year", 2003);
+//    doc1.put("label", "Square Enix");
+//
+//    // and instead of going to the database, run a query to check if the
+//    // document already exists, we are going to emit an update command
+//    // with the flag $upsert: true.
+//
+//    // We set a query predicate that finds the video game based on his title
+//    Bson query = new Document("title", "Final Fantasy");
+//
+//    // And we try to updated. If we do not provide the upsert flag
+//    UpdateResult resultNoUpsert = videoGames.updateOne(query, new Document("$set", doc1));
+//
+//    // if the document does not exist, the number of matched documents
+//    Assert.assertEquals(0, resultNoUpsert.getMatchedCount());
+//    // should be 0, so as the number of modified documents.
+//    Assert.assertNotEquals(1, resultNoUpsert.getModifiedCount());
+//
+//    // on the other hand, if we do provide an upsert flag by setting the
+//    // UpdateOptions document
+//    UpdateOptions options = new UpdateOptions();
+//    options.upsert(true);
+//
+//    // and adding those options to the update method.
+//    UpdateResult resultWithUpsert =
+//            videoGames.updateOne(query, new Document("$set", doc1), options);
+
+    Document doc = new Document("text", text);
+    Document conditition = new Document("_id", new ObjectId(commentId));
+    conditition.append("email", email);
+//    Document query = new Document("$match", conditition);
+    UpdateResult result =  commentCollection.updateOne(conditition, new Document("$set", doc));
     // TODO> Ticket - Handling Errors: Implement a try catch block to
     // handle a potential write exception when given a wrong commentId.
-    return false;
+    return (result.getModifiedCount() == 1);
   }
 
   /**
@@ -119,10 +152,13 @@ public class CommentDao extends AbstractMFlixDao {
   public boolean deleteComment(String commentId, String email) {
     // TODO> Ticket Delete Comments - Implement the method that enables the deletion of a user
     // comment
+    Document query = new Document("_id", new ObjectId(commentId));
+    query.append("email", email);
+    DeleteResult delResult = commentCollection.deleteOne(query);
     // TIP: make sure to match only users that own the given commentId
     // TODO> Ticket Handling Errors - Implement a try catch block to
     // handle a potential write exception when given a wrong commentId.
-    return false;
+    return (delResult.getDeletedCount() == 1);
   }
 
   /**
